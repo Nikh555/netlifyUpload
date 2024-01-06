@@ -1,0 +1,51 @@
+.about-box{
+    background-color: rgba(0, 0, 0, 0.963);
+    width: 100%;
+    color: white;
+}
+
+.thought{
+    font-style: italic;
+    margin:30px;
+    text-align:center;
+    padding: 30px;
+}
+
+.email{
+    padding-bottom: 50px;
+    display: flex;
+    margin: 10px 150px 0px 150px;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+
+.email a{
+    text-decoration: none;
+}
+
+@media only screen and (min-width:450px) and (max-width:670px) {
+    .email{
+        margin: 10px 50px 0px 50px;
+    }
+    /* .email a{
+        justify-self: end;
+    } */
+}
+@media only screen and (min-width:370px) and (max-width:449px) {
+    .email{
+        margin: 10px 20px 0px 20px;
+    }
+    /* .email a{
+        justify-self: end;
+    } */
+}
+@media only screen and (min-width:200px) and (max-width:369px) {
+    .email{
+        margin: 10px 20px 0px 20px;
+        flex-direction: column;
+    }
+    .email a{
+        margin-left: auto;
+
+    }
+}
